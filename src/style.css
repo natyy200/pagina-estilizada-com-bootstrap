@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&family=Pacifico&display=swap');
+
+
+.imagem-carrossel1{
+    object-fit:cover;
+    height:400px;
+    object-position: 0 80%;
+}
+
+.imagem-carrossel2{
+    object-fit:cover;
+    height:400px; 
+}
+.icone{
+    object-fit:cover;
+    height:50px; 
+}
+
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkred;
+}
+.botao-cor-especial{
+    background: darkred;
+    color:#FFFFFF;
+}
+.botao-cor-especial:hover{
+    background: rgb(172, 0, 0);
+    color:#FFFFFF;
+}
+
+.borda-cor-especial {
+    border-color:rgb(139, 0, 0);
+}
+.card-largura{
+    max-width:18rem;
+}
+.card-position-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+.card:hover{
+    transform: scale(1.05);
+    
+}
+
+.card{
+    transition: transform ease-out 0.5s;
+    transform: scale(1);
+}
+  
